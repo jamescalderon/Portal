@@ -9,7 +9,8 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/email.css">
 </head>
 
 <body>
@@ -25,14 +26,14 @@
 
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"> <i class="fas fa-tachometer-alt"></i> Dashboard </a>
+                <li class="nav-item ">
+                    <a class="nav-link" href="dash.html"> <i class="fas fa-tachometer-alt"></i> Dashboard </a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link" href="email.html"> <i class="fas fa-at"></i> Email </a>
                 </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="tasks.html"> <i class="fas fa-tasks"></i> Tasks</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"> <i class="fas fa-tasks"></i> Tasks</a>
                 </li>
 
 
@@ -57,43 +58,8 @@
 
     <div class="container text-center">
 
-        <div class="card-deck mb-3 text-center">
-            <div class="card mb-4 box-shadow">
-                <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">Email</h4>
-                </div>
-                <div class="card-body">
-                    <h1 class="card-title pricing-card-title"><i class="far fa-envelope"></i></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li id="unreadEmail">20 Unread</li>
-                        <li id="readEmail">10 Read</li>
-                        <li id="prcntEmail">30% Completed</li>
-
-                    </ul>
-                    <!-- <button type="button" class="btn btn-lg btn-block btn-outline-primary">Go to Email</button> -->
-                    <a class="btn btn-lg btn-block btn-outline-primary" href="email.html">Go to Email</a>
-                </div>
-            </div>
-            <div class="card mb-4 box-shadow">
-                <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">Tasks</h4>
-                </div>
-                <div class="card-body">
-                    <h1 class="card-title pricing-card-title"><i class="fas fa-clipboard-check"></i></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li id="unreadEmail">20 Unread</li>
-                        <li id="readEmail">10 Read</li>
-                        <li id="prcntEmail">30% Completed</li>
-                    </ul>
-                    <button type="button" class="btn btn-lg btn-block btn-outline-primary">Go to Tasks</button>
-                </div>
-            </div>
-
-        </div>
     </div>
-    <div class="container">
-        <img src="./images/1000px-Bar_graph.svg.png" class="img-fluid img-thumbnail" alt="Responsive image">
-    </div>
+
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -105,8 +71,8 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
     <!-- Chart JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
-    <!-- Dashboard (Page Custom JS) -->
-    <script src="./js/dash.js"></script>
+    <!-- Email (Page Custom JS) -->
+    <script src="./js/email.js"></script>
 </body>
 
 </html>

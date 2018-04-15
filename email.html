@@ -9,7 +9,8 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/email.css">
 </head>
 
 <body>
@@ -25,10 +26,10 @@
 
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"> <i class="fas fa-tachometer-alt"></i> Dashboard </a>
-                </li>
                 <li class="nav-item ">
+                    <a class="nav-link" href="dash.html"> <i class="fas fa-tachometer-alt"></i> Dashboard </a>
+                </li>
+                <li class="nav-item active">
                     <a class="nav-link" href="#"> <i class="fas fa-at"></i> Email </a>
                 </li>
                 <li class="nav-item ">
@@ -56,51 +57,77 @@
 
 
     <div class="container text-center">
-
-        <div class="card-deck mb-3 text-center">
-            <div class="card mb-4 box-shadow">
-                <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">Email</h4>
-                </div>
-                <div class="card-body">
-                    <h1 class="card-title pricing-card-title"><i class="far fa-envelope"></i></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li id="unreadEmail">20 Unread</li>
-                        <li id="readEmail">10 Read</li>
-                        <li id="prcntEmail">30% Completed</li>
-
-                    </ul>
-                    <button type="button" class="btn btn-lg btn-block btn-outline-primary">Go to Email</button>
-                </div>
+        <!-- <div class="card-deck mb-3 text-center"> -->
+        <!-- <div class="card mb-4 box-shadow">
+                      <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Free</h4>
+                      </div>
+                      <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>10 users included</li>
+                          <li>2 GB of storage</li>
+                          <li>Email support</li>
+                          <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+                      </div>
+                    </div>
+                    <div class="card mb-4 box-shadow">
+                      <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Pro</h4>
+                      </div>
+                      <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>20 users included</li>
+                          <li>10 GB of storage</li>
+                          <li>Priority email support</li>
+                          <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+                      </div>
+                    </div>
+                    <div class="card mb-4 box-shadow">
+                      <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Enterprise</h4>
+                      </div>
+                      <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>30 users included</li>
+                          <li>15 GB of storage</li>
+                          <li>Phone and email support</li>
+                          <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                      </div>
+                    </div> -->
+        <!-- </div> -->
+        <!-- <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
             </div>
-            <div class="card mb-4 box-shadow">
-                <div class="card-header">
-                    <h4 class="my-0 font-weight-normal">Tasks</h4>
-                </div>
-                <div class="card-body">
-                    <h1 class="card-title pricing-card-title"><i class="fas fa-clipboard-check"></i></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li id="unreadEmail">20 Unread</li>
-                        <li id="readEmail">10 Read</li>
-                        <li id="prcntEmail">30% Completed</li>
-                    </ul>
-                    <button type="button" class="btn btn-lg btn-block btn-outline-primary">Go to Tasks</button>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <div class="container">
-        <img src="./images/1000px-Bar_graph.svg.png" class="img-fluid img-thumbnail" alt="Responsive image">
+        </div> -->
     </div>
 
-    <!-- JS -->
+
+    <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Popper -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- Bootstrap 4 -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="data.json"></script>
-    <script src="./js/dash"></script>
+    <!-- Chart JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+    <!-- Dashboard (Page Custom JS) -->
+    <script src="./js/email.js"></script>
 </body>
 
 </html>

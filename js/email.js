@@ -7,7 +7,7 @@ $(document).ready(function() {
     var tasks = []; //holds alert objects
 
     //get data file and load arrays
-    $.getJSON("../data/emails.json", function(result) {
+    $.getJSON("./data/emails.json", function(result) {
         var rowCounter = 0;
         var maxInRow = 3;
         $.each(result, function(i, field) {

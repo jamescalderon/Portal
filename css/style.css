@@ -1,0 +1,19 @@
+.navbar-expand-lg {
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+.container {
+    margin-top: 15px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1023px) {
+    .navbar-expand-lg {
+        padding-right: 5%;
+    }
+}

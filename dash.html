@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Company Portal</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- if JS is disabled in browser -->
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <a class="navbar-brand" href="#">Company Portal V3</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"> <i class="fas fa-tachometer-alt"></i> Dashboard </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#"> <i class="fas fa-at"></i> Email </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#"> <i class="fas fa-tasks"></i> Tasks</a>
+                </li>
+
+
+
+
+                <li class="nav-item dropdown navbar-right">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user-circle"></i> Account
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="index.html">Sign Out</a>
+
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <div class="container text-center">
+
+        <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Email</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title"><i class="far fa-envelope"></i></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li id="unreadEmail">20 Unread</li>
+                        <li id="readEmail">10 Read</li>
+                        <li id="prcntEmail">30% Completed</li>
+
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-outline-primary">Go to Email</button>
+                </div>
+            </div>
+            <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Tasks</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title"><i class="fas fa-clipboard-check"></i></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li id="unreadEmail">20 Unread</li>
+                        <li id="readEmail">10 Read</li>
+                        <li id="prcntEmail">30% Completed</li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-outline-primary">Go to Tasks</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <img src="./images/1000px-Bar_graph.svg.png" class="img-fluid img-thumbnail" alt="Responsive image">
+    </div>
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="data.json"></script>
+    <script src="./js/dash"></script>
+</body>
+
+</html>

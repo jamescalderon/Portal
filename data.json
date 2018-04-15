@@ -1,0 +1,72 @@
+{
+    "Emails": [{
+            "sender": "Suzie Reyes",
+            "receiver": "John Public",
+            "timestamp": "2018-03-23T18:25:43.511Z",
+            "priority": 0,
+            "subject": "Project Complete",
+            "body": "The project is done and ready for review. Let's schedule a time to meet this coming week.",
+            "read": false
+
+        },
+        {
+            "sender": "",
+            "receiver": "",
+            "timestamp": "2012-04-23",
+            "priority": 0,
+            "subject": "",
+            "body": "",
+            "read": false
+
+        },
+        {
+            "sender": "",
+            "receiver": "",
+            "timestamp": "2012-04-23T18:25:43.511Z",
+            "priority": 0,
+            "subject": "",
+            "body": "",
+            "read": false
+
+        },
+        {
+            "sender": "",
+            "receiver": "",
+            "timestamp": "2012-04-23T18:25:43.511Z",
+            "priority": 0,
+            "subject": "",
+            "body": "",
+            "read": false
+
+        }
+    ],
+    "Alerts": [{
+            "type": "comments",
+            "receiver": "John Public",
+            "timestamp": "2018-03-23T18:25:43.511Z",
+            "title": "5 New Comments",
+            "read": false
+        },
+        {
+            "type": "tweets",
+            "receiver": "John Public",
+            "timestamp": "2018-03-23T18:25:43.511Z",
+            "title": "6 new Followers",
+            "read": false
+        },
+        {
+            "type": "tweets",
+            "receiver": "Suzie Random",
+            "timestamp": "2018-03-23T18:25:43.511Z",
+            "title": "8 new Followers",
+            "read": false
+        },
+        {
+            "type": "support",
+            "receiver": "John Public",
+            "timestamp": "2018-03-23T18:25:43.511Z",
+            "title": "Database Migration Complete",
+            "read": false
+        }
+    ]
+}
